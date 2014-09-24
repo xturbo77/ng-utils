@@ -17,7 +17,9 @@
 
 <body ng-app="MainApp" ng-controller="MainCtrl">
 
-    <button ngx-confirm-click="doSomething()" ngx-cancel-click="doOnCancel()" ngx-confirm-message="Are you sure?">Click me</button> 
+    <button ngx-confirm-click="doSomething()" ngx-cancel-click="doOnCancel()" ngx-confirm-message="Are you sure?">Click me</button>
+    
+    <span ngx-current-time="'dd.MM.yyyy hh:mm:ss'" ngx-interval="5000"></span>
 
     <!-- Scripts -->
     <script src="bower_components/angular/angular.js"></script>

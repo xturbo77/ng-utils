@@ -10,4 +10,6 @@ mainapp.controller('MainCtrl', function($scope) {
         return alert('cancel-click called');
     }
     
+    $scope.format = 'dd.MM.yyyy hh:mm:ss';
+    
 });
