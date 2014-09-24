@@ -16,7 +16,7 @@ Confirm/Cancel click directive
 Markup:
 
     <button ngx-confirm-click="doSomething()" ngx-cancel-click="doOnCancel()" ngx-confirm-message="Are you sure?">Click me</button>
-![alttext](/images/image.jpg "title")
+
 
 Notes
 ------
