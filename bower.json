@@ -1,0 +1,28 @@
+{
+  "name": "ng_utils",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xturbo77/ng-utils",
+  "authors": [
+    "xturbo77 <xturbo77@gmail.com>"
+  ],
+  "description": "AngularJS utils",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angularjs",
+    "javascript",
+    "utils"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.25"
+  }
+}
