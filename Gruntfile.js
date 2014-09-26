@@ -20,7 +20,14 @@ module.exports = function(grunt) {
             }
         },
         ngdocs: {
-            all: ['app/ngxUtils.js']
+            options: {
+                dest: 'docs',
+                scripts: ['docs/js/angular.min.js', 'app/ngxUtils.js']
+            },
+            api: {
+                src: ['app/*.js'],
+                title: 'API Documentation'
+            }
         }
     });
 
